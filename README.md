@@ -4,7 +4,13 @@
 
 \## 📌 Overview
 
-Heart Guard is a smart healthcare system designed to analyze ECG signals and assist in patient diagnosis using AI-powered tools.
+Heart Guard is an intelligent healthcare system designed to assist in the analysis and interpretation of ECG (Electrocardiogram) signals.  
+
+The system combines signal processing, image digitization, and AI-powered tools to help detect potential heart conditions and support medical decision-making.
+
+
+
+It aims to simplify ECG analysis for both medical professionals and students by providing clear visualizations, automated insights, and interactive assistance.
 
 
 
@@ -14,15 +20,55 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \## 🚀 Features
 
-\- 📊 ECG Signal Analysis
 
-\- 🤖 AI Chatbot for result interpretation
 
-\- 🧾 Patient history summarization
+\### 📊 ECG Signal Analysis
 
-\- 🖼️ Image-based ECG digitization
+\- Processes raw ECG signals and extracts meaningful patterns  
 
-\- 📁 Patient records management
+\- Displays results in a clear and understandable format  
+
+\- Helps identify abnormalities in heart activity  
+
+
+
+\### 🤖 AI Chatbot for Interpretation
+
+\- Explains ECG results in simple language  
+
+\- Assists users in understanding medical data  
+
+\- Provides insights based on analyzed results  
+
+
+
+\### 🧾 Patient History Summarization
+
+\- Automatically summarizes patient medical history  
+
+\- Helps doctors quickly review previous conditions  
+
+\- Improves efficiency in diagnosis  
+
+
+
+\### 🖼️ ECG Image Digitization
+
+\- Converts ECG images into digital signals  
+
+\- Enables analysis of scanned or printed ECG reports  
+
+\- Bridges the gap between traditional and digital data  
+
+
+
+\### 📁 Patient Management System
+
+\- Stores patient records securely  
+
+\- Organizes ECG reports and history  
+
+\- Allows easy access to previous data  
 
 
 
@@ -36,7 +82,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 🏠 Home Screen
 
-!\[Home Screen](Home\_Screen.png)
+Main dashboard providing quick access to all system features.
+
+<img src="images/Home\_Screen.png" width="700"/>
 
 
 
@@ -46,9 +94,11 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 📊 ECG Results
 
-!\[ECG Result 1](ECG\_Results\_Shown\_1.png)
+Displays analyzed ECG signals and detected patterns.
 
-!\[ECG Result 2](ECG\_Results\_Shown\_2.png)
+<img src="images/ECG\_Results\_Shown\_1.png" width="700"/>
+
+<img src="images/ECG\_Results\_Shown\_2.png" width="700"/>
 
 
 
@@ -58,7 +108,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 📉 ECG Examples
 
-!\[ECG Examples](ECG\_Examples\_Shown.png)
+Sample ECG signals used for testing and demonstration.
+
+<img src="images/ECG\_Examples\_Shown.png" width="700"/>
 
 
 
@@ -68,7 +120,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 🤖 Chatbot Analysis
 
-!\[Chatbot Analysis](Chatbot\_To\_Analyze\_results.png)
+AI chatbot explaining ECG results and assisting the user.
+
+<img src="images/Chatbot\_To\_Analyze\_results.png" width="700"/>
 
 
 
@@ -78,7 +132,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 🧠 Patient History Summary
 
-!\[Patient Summary](General\_Chatbot\_to\_Summarize\_Patient\_History.png)
+Automatically generated summary of patient medical data.
+
+<img src="images/General\_Chatbot\_to\_Summarize\_Patient\_History.png" width="700"/>
 
 
 
@@ -88,7 +144,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 👤 Patient Details
 
-!\[Patient Details](Patient\_Details.png)
+Detailed view of individual patient information.
+
+<img src="images/Patient\_Details.png" width="700"/>
 
 
 
@@ -98,7 +156,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 📋 Patients List
 
-!\[Patients List](Patients\_List.png)
+Overview of all registered patients in the system.
+
+<img src="images/Patients\_List.png" width="700"/>
 
 
 
@@ -108,7 +168,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 📁 Previous ECG List
 
-!\[Previous ECG](Previous\_ECG\_List.png)
+Access to previously recorded ECG reports.
+
+<img src="images/Previous\_ECG\_List.png" width="700"/>
 
 
 
@@ -118,7 +180,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 🖼️ Image Input Example
 
-!\[Image Input](Image\_Input\_Example.png)
+Example of uploading ECG images for processing.
+
+<img src="images/Image\_Input\_Example.png" width="700"/>
 
 
 
@@ -128,7 +192,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 🧾 Supported Image Input
 
-!\[Supported Image](Image\_Input\_Supported.png)
+Shows supported formats for ECG image upload.
+
+<img src="images/Image\_Input\_Supported.png" width="700"/>
 
 
 
@@ -138,7 +204,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 📡 Signal Input Supported
 
-!\[Signal Input](Signal\_Input\_Supported.png)
+Different types of ECG signal inputs supported by the system.
+
+<img src="images/Signal\_Input\_Supported.png" width="700"/>
 
 
 
@@ -148,7 +216,9 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \### 🔄 Digitization Output
 
-!\[Digitization Output](Image\_Digitization\_Output.png)
+Result of converting ECG images into digital signals.
+
+<img src="images/Image\_Digitization\_Output.png" width="700"/>
 
 
 
@@ -158,11 +228,21 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \## 🛠️ Technologies Used
 
-\- Flutter (Frontend)
+\- \*\*Flutter\*\* – Cross-platform mobile application development  
 
-\- Firebase (Backend)
+\- \*\*Firebase\*\* – Backend services and database  
 
-\- AI / Machine Learning (ECG Analysis)
+\- \*\*AI / Machine Learning\*\* – ECG analysis and chatbot intelligence  
+
+
+
+\---
+
+
+
+\## 🎯 Project Goal
+
+The goal of Heart Guard is to make ECG analysis more accessible, accurate, and user-friendly by integrating modern AI technologies with medical data processing.
 
 
 
@@ -172,5 +252,5 @@ Heart Guard is a smart healthcare system designed to analyze ECG signals and ass
 
 \## 📌 Author
 
-\- Robert Bannoura
+\*\*Robert Bannoura\*\*
 
